@@ -40,7 +40,7 @@ public class AddEditActivity extends AppCompatActivity {
         }
 
         Button btn_submit = findViewById(R.id.btn_submit);
-        Button btn_cancel = findViewById(R.id.btn_cancel);
+        Button btn_reset = findViewById(R.id.btn_reset);
 
         helper = new DbHelper(this);
 
@@ -54,10 +54,12 @@ public class AddEditActivity extends AppCompatActivity {
             }
         });
 
-        btn_cancel.setOnClickListener(new View.OnClickListener() {
+        btn_reset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                etName.setText("");
+                etHarga.setText("");
+                etJumlah.setText("");
             }
         });
     }
@@ -99,5 +101,11 @@ public class AddEditActivity extends AppCompatActivity {
                 Toast.makeText(this, "Update berhasil", Toast.LENGTH_SHORT).show();
             }
         }
+    }
+
+    private void reset() {
+        etName.setText("");
+        etHarga.setText("");
+        etJumlah.setText("");
     }
 }

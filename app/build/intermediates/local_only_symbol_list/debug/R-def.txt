@@ -5,7 +5,7 @@ color white
 drawable baseline_add_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id btn_cancel
+id btn_reset
 id btn_submit
 id et_harga
 id et_jumlah

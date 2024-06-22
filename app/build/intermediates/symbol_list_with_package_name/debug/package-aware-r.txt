@@ -2600,7 +2600,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btn_cancel
+id btn_reset
 id btn_submit
 id buttonPanel
 id cache_measures

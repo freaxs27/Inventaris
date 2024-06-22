@@ -51,8 +51,9 @@ public class Adapter extends BaseAdapter {
 
         Data data = items.get(i);
         tId.setText(data.getId());
-        tName.setText(data.getHarga());
-        tHarga.setText(data.getJumlah());
+        tName.setText(data.getName());
+        tHarga.setText(data.getHarga());
+        tJumlah.setText(data.getJumlah());
 
         return view;
     }

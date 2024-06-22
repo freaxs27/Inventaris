@@ -2599,7 +2599,7 @@ int id bounce 0x7f08005f
 int id bounceBoth 0x7f080060
 int id bounceEnd 0x7f080061
 int id bounceStart 0x7f080062
-int id btn_cancel 0x7f080063
+int id btn_reset 0x7f0801e7
 int id btn_submit 0x7f080064
 int id buttonPanel 0x7f080065
 int id cache_measures 0x7f080066
